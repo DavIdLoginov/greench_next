@@ -1,6 +1,6 @@
-// src/app/page.js
 "use client";
 import React, { useEffect, useState } from "react";
+import Head from "next/head"; // Импортируем компонент Head для SEO
 import Header from "./components/Header";
 import AboutUs from "./components/AboutUs";
 import Services from "./components/Services";
@@ -54,6 +54,20 @@ const MainPage = () => {
 
   return (
     <main>
+      <Head>
+        <title>Ландшафтный дизайн для вашего участка | Greench</title>
+        <meta
+          name="description"
+          content="Greench — команда профессионалов в области ландшафтного дизайна. Мы создаем уникальные ландшафтные проекты, которые вдохновляют."
+        />
+        <meta
+          name="keywords"
+          content="ландшафтный дизайн, ландшафтный дизай Бишкек, ландшафт, ландшафт Бишкек, озеленение, садовый дизайн, Greench, Бишкек, Кыргызстан, эксперты, услуги ландщафта, проектирование ландшафтов"
+        />
+        <meta name="robots" content="index, follow" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+      </Head>
+
       <Header />
       <div className="sc_top" id="sc_top">
         <Container maxWidth="lg">
@@ -78,7 +92,7 @@ const MainPage = () => {
           >
             Greench — это команда профессионалов, объединённая любовью к своему
             делу. Вдохновляясь гармонией природы, мы создаём уникальные
-            ландшафты, которые превращают ваш участок в живописный оазис
+            ландшафты, которые превращают ваш участок в живописный оазис.
           </Typography>
           <Button variant="outlined" color="white" size="large">
             Заказать дизайн
