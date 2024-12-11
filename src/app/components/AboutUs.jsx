@@ -11,7 +11,8 @@ const AboutUs = () => {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            padding: '100px 0 0',
+            padding: { md: '100px 0 0', xs: '0px' },
+            
           }}
         >
           <Typography
@@ -41,10 +42,12 @@ const AboutUs = () => {
             <Typography
               variant="h4"
               sx={{
-                marginBottom: "50px",
+                marginBottom:{xs: "20px", md: '50px'},
                 fontWeight: 600,
                 fontSize: { xs: '1.5rem', sm: '2rem', md: '2.5rem' },
                 color: "#333",
+                marginTop: {xs: "15px"},
+
               }}
             >
               Greench: Эксперты в ландшафтном дизайне и озеленении

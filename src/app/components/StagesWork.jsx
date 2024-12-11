@@ -35,7 +35,7 @@ const steps = [
 const StagesWork = () => {
   return (
     <section>
-      <Container maxWidth="md" sx={{ color: "#333", marginTop: '80px', marginBottom: '100px' }}>
+      <Container maxWidth="md" sx={{ color: "#333", marginTop: '80px', marginBottom:{xs: '20px', md:'100px'} }}>
         <Box textAlign="center" mb={4}>
           <Typography
             variant="h3"

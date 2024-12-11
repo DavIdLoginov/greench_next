@@ -38,7 +38,7 @@ const ProjectType = () => {
       <Container
         maxWidth="lg"
         sx={{
-          padding: { xs: "100px 0", sm: "120px 0" },
+          padding: { xs: "50px 0", sm: "120px 0" },
           textAlign: "center",
         }}
       >
@@ -57,15 +57,17 @@ const ProjectType = () => {
           variant="body1"
           sx={{
             color: "#555",
-            fontSize: { xs: "0.8rem", sm: "1.4rem" },
+            fontSize: { xs: "14px", sm: "1.4rem" },
             marginBottom: "40px",
             textAlign: "center",
             maxWidth: "1000px",
             margin: "0 auto",
-            marginTop: "40px",
+            marginTop: { xs: "0", md: "40px" },
           }}
         >
-          Мы беремся за проектирование и реализацию объектов разной сложности – от частных участков до крупных коммерческих объектов и городских набережных и скверов.
+          Мы беремся за проектирование и реализацию объектов разной сложности –
+          от частных участков до крупных коммерческих объектов и городских
+          набережных и скверов.
         </Typography>
 
         <Box
@@ -73,7 +75,7 @@ const ProjectType = () => {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            marginTop: "5rem",
+            marginTop: { sx: "20px", md: "5rem" },
             flexWrap: "wrap",
             gap: "20px",
           }}

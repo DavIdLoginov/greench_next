@@ -36,7 +36,7 @@ const Why = () => {
       <Container
         maxWidth="lg"
         sx={{
-          marginTop: "100px",
+          marginTop: {xs: "50px", md:'100px'},
         }}
       >
         <Box textAlign="center" mb={4}>
@@ -45,7 +45,7 @@ const Why = () => {
             gutterBottom
             sx={{
               fontWeight: 500,
-              fontSize: { xs: "1.6rem", sm: "1.8rem", md: "2.5rem" }, // Уменьшены размеры заголовка для мобильных
+              fontSize: { xs: "1.5rem", sm: "1.8rem", md: "2.5rem" }, // Уменьшены размеры заголовка для мобильных
               display: "inline",
             }}
           >
