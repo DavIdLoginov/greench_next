@@ -6,32 +6,32 @@ const servicesData = [
   {
     title: 'Ландшафтный дизайн',
     description: 'Индивидуальные проекты, учитывающие ваши пожелания и особенности участка.',
-    image: 'https://znanie174.ru/wp-content/uploads/2019/09/landshaftniy-dizayn3-min-1024x762.jpeg',
+    image: '/services.jpeg',
   },
   {
     title: 'Устройство газонов',
     description: 'Посев газона, выбор лучших сортов трав для нашего региона.',
-    image: 'https://lifgroup.ru/images/page/service/blagoustroistvo/gazon/3.jpg',
+    image: '/services1.jpg',
   },
   {
     title: 'Посадка деревьев и кустарников',
     description: 'Подбор растений, которые подходят для нашего климата и стиля.',
-    image: 'https://i.pinimg.com/736x/7b/32/21/7b3221ca47def695acad0470682f13b0.jpg',
+    image: 'services2.jpg',
   },
   {
     title: 'Установка систем полива',
     description: 'Эффективные решения для автоматического орошения вашего сада.',
-    image: 'https://i.pinimg.com/736x/96/a4/19/96a41965f2c554373e20f0f2db6325d1.jpg',
+    image: 'services3.jpg',
   },
   {
     title: 'Установка ландшафтного освещения',
     description: 'Правильно подобранное освещение не только украшает территорию, но и повышает ее безопасность.',
-    image: 'https://i.pinimg.com/736x/9d/bb/39/9dbb39a4d34a9b1177cc4a39f4b59d6f.jpg',
+    image: 'services4.jpg',
   },
   {
     title: 'Уход за участком',
     description: 'Профессиональное обслуживание, включая стрижку, подкормку и защиту растений.',
-    image: 'https://na-dache.pro/din/uploads/posts/2022-12/1672307092_na-dache-pro-p-landshaftnii-dizain-professiya-foto-2.jpg',
+    image: 'services5.jpg',
   },
 ];
 
