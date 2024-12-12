@@ -77,7 +77,6 @@ const Footer = () => {
           </Grid>
         </Grid>
 
-        {/* Нижняя часть футера */}
         <Box
           textAlign="center"
           sx={{

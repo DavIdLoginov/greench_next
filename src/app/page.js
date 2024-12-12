@@ -11,6 +11,7 @@ import "./globals.css";
 import "./page.module.css";
 import StagesWork from "./components/StagesWork";
 import ProjectType from "./components/ProjectType";
+import WhatsappBtn from "./components/WhatsappBtn";
 
 const MainPage = () => {
   const [count1, setCount1] = useState(0);
@@ -174,6 +175,7 @@ const MainPage = () => {
       <ProjectType />
       <Why />
       <Footer />
+      <WhatsappBtn />
     </main>
   );
 };
