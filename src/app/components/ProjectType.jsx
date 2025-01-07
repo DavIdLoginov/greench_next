@@ -15,22 +15,44 @@ const services = [
   {
     title: "Частные владения",
     description:
-      "Спроектируем и реализуем частный сад или парк любого размера — от шести соток до нескольких гектар.",
-    imageSrc: "/privatProject.png",
+      "Спроектируем и реализуем частный сад или парк любого размера — от шести соток до нескольких гектар, создавая уникальный ландшафт.",
+    imageSrc: "https://dizlandshafta.ru/wp-content/uploads/2019/07/3-1024x682-770x400.jpg",
   },
   {
     title: "Коммерческие объекты",
     description:
       "Разработаем ландшафтный дизайн и благоустройство для офисных территорий, бизнес-центров и жилых комплексов.",
-    imageSrc: "/comProject.png",
+    imageSrc: "https://vive.com.ua/wp-content/uploads/2019/09/lndshaftnyi-dizayn-ofisa.jpg",
   },
   {
     title: "Государственные объекты",
     description:
       "Благоустройство парков, скверов, городских набережных и других объектов федерального и муниципального значения.",
-    imageSrc: "/gosProject.png",
+    imageSrc: "https://static.tildacdn.com/tild3035-3130-4564-a531-613232663362/6.jpg",
   },
 ];
+
+// const services = [
+//   {
+//     title: "Частные владения",
+//     description:
+//        "Спроектируем и реализуем частный сад или парк любого размера — от шести соток до нескольких гектар, создавая уникальный ландшафт.",
+//     imageSrc: "/privatProject.png",
+//   },
+//   {
+//     title: "Коммерческие объекты",
+//     description:
+//       "Разработаем ландшафтный дизайн и благоустройство для офисных территорий, бизнес-центров и жилых комплексов.",
+//     imageSrc: "/comProject.png",
+//   },
+//   {
+//     title: "Государственные объекты",
+//     description:
+//       "Благоустройство парков, скверов, городских набережных и других объектов федерального и муниципального значения.",
+//     imageSrc: "/gosProject.png",
+//   },
+// ];
+
 
 const ProjectType = () => {
   return (
@@ -92,7 +114,8 @@ const ProjectType = () => {
                 maxWidth: "350px",
                 display: "flex",
                 flexDirection: "column",
-                alignItems: "center",
+                alignItems: "start",
+                textAlign: 'start',
               }}
             >
               <CardMedia
@@ -115,7 +138,9 @@ const ProjectType = () => {
                     fontWeight: "600",
                     marginBottom: "20px",
                     fontSize: { xs: "1.25rem", sm: "1.5rem" },
-                    textAlign: "center",
+                    textAlign: "start",
+                    whiteSpace: 'nowrap'
+
                   }}
                 >
                   {item.title}
@@ -125,7 +150,7 @@ const ProjectType = () => {
                   sx={{
                     color: "text.secondary",
                     fontSize: { xs: "1rem", sm: "1.1rem" },
-                    textAlign: "center",
+                    textAlign: "start",
                   }}
                 >
                   {item.description}

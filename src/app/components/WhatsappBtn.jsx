@@ -1,8 +1,6 @@
 import React from 'react';
 import { Fab } from '@mui/material';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-import { useTheme } from '@mui/material/styles';
-import useMediaQuery from '@mui/material/useMediaQuery';
 import { keyframes } from '@mui/system';
 
 const pulse = keyframes`
@@ -18,11 +16,6 @@ const pulse = keyframes`
 `;
 
 const WhatsappBtn = () => {
-  const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
-
-  if (!isMobile) return null;
-
   return (
     <Fab
       aria-label="WhatsApp"
@@ -30,11 +23,11 @@ const WhatsappBtn = () => {
       target="_blank"
       rel="noopener noreferrer"
       sx={{
-        width: '65px',
-        height: '65px',
+        width: '70px',
+        height: '70px',
         position: 'fixed',
-        bottom: 30,
-        right: 20,
+        bottom: "20px",
+        right: {xs: '5%', md: '10%',},
         zIndex: 1000,
         backgroundColor: '#25D366',
         color: '#FFFFFF',
@@ -42,12 +35,13 @@ const WhatsappBtn = () => {
         '&:hover': {
           backgroundColor: '#1EBE54',
         },
+        boxShadow: '0 4px 12px rgba(0, 0, 0, 0.3)',
       }}
     >
       <WhatsAppIcon 
       sx={{
-        width: '45px',
-        height: '45px'
+        width: '50px',
+        height: '50px'
       }}
       />
     </Fab>

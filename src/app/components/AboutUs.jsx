@@ -38,7 +38,7 @@ const AboutUs = () => {
           }}
         >
           <div className="aboutUs__photo" style={{ marginRight: "30px" }}></div>
-          <Box sx={{ textAlign: "center", maxWidth: "600px" }} mb={4}>
+          <Box sx={{ textAlign: "start", maxWidth: "600px" }} mb={4}>
             <Typography
               variant="h4"
               sx={{

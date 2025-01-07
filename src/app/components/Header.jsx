@@ -14,9 +14,9 @@ import MenuItem from "@mui/material/MenuItem";
 import { Link } from "react-scroll";
 
 const pages = [
-  { pageName: "Главная", pageId: "sc_top" },
   { pageName: "О нас", pageId: "about_us" },
   { pageName: "Услуги", pageId: "services" },
+  { pageName: "Этапы работы", pageId: "stages_work" },
   { pageName: "Контакты", pageId: "contacts" },
 ];
 
