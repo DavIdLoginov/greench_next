@@ -73,7 +73,7 @@ const ProjectType = () => {
             color: "#333",
             fontSize: { xs: "1.3rem", sm: "2.2rem", md: "2.5rem" },
             marginBottom: "20px",
-            padding: { xs: "0 1rem" },
+            padding: { xs: "0 1.5rem" },
             textAlign: { md: "center", xs: "start" },
           }}
         >
@@ -82,9 +82,9 @@ const ProjectType = () => {
         <Typography
           variant="body1"
           sx={{
-            padding: { xs: "0 1rem" },
+            padding: { xs: "0 1.5rem" },
             color: "#555",
-            fontSize: { xs: "14px", sm: "1.4rem" },
+            fontSize: { xs: "16px", sm: "1.4rem" },
             marginBottom: "40px",
             textAlign: { md: "center", xs: "start" },
             maxWidth: "1000px",

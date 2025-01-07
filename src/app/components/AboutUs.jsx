@@ -12,7 +12,6 @@ const AboutUs = () => {
             justifyContent: "center",
             alignItems: "center",
             padding: { md: '100px 0 0', xs: '0px' },
-            
           }}
         >
           <Typography

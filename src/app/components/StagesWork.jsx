@@ -54,7 +54,7 @@ const StagesWork = () => {
             color="textSecondary"
             paddingTop='10px'
             paragraph
-            sx={{ fontSize: { xs: '1rem', sm: '1.2rem' } }}
+            sx={{ fontSize: { xs: '1.2rem', sm: '1.2rem' } }}
           >
             От концепции до реализации
           </Typography>
@@ -78,7 +78,7 @@ const StagesWork = () => {
                   sx={{
                     color: "#5B7759",
                     fontWeight: "600",
-                    fontSize: { xs: '1.2rem', sm: '1.8rem', md: '2rem' },
+                    fontSize: { xs: '1.3rem', sm: '1.8rem', md: '2rem' },
                   }}
                 >
                   {step.title}
@@ -88,7 +88,7 @@ const StagesWork = () => {
                 <Typography
                   variant="body1"
                   sx={{
-                    fontSize: { xs: '0.9rem', sm: '1rem', md: '1.2rem' },
+                    fontSize: { xs: '16px', sm: '1rem', md: '1.2rem' },
                     lineHeight: 1.6,
                   }}
                 >

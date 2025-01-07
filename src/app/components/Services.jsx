@@ -104,7 +104,7 @@ const Services = () => {
                       variant="body2"
                       sx={{
                         color: 'white',
-                        fontSize: { xs: '0.9rem', sm: '1rem', md: '1.2rem' },
+                        fontSize: { xs: '16px', sm: '1rem', md: '1.2rem' },
                         fontWeight: 400,
                         lineHeight: 1.6,
                       }}
