@@ -37,12 +37,7 @@ const MainPage = () => {
         setCount3(Math.round(counter3));
         setCount4(Math.round(counter4));
 
-        if (
-          counter1 < 10 ||
-          counter2 < 1 ||
-          counter3 < 50000 ||
-          counter4 < 1
-        ) {
+        if (counter1 < 10 || counter2 < 1 || counter3 < 50000 || counter4 < 1) {
           requestAnimationFrame(updateNumbers);
         }
       };
@@ -95,9 +90,15 @@ const MainPage = () => {
             делу. Вдохновляясь гармонией природы, мы создаём уникальные
             ландшафты, которые превращают ваш участок в живописный оазис.
           </Typography>
-          <Button variant="outlined" color="white" size="large">
-            Заказать дизайн
-          </Button>
+          <a
+            href="https://wa.me/996555886168"
+            target="_blank"
+            style={{ textDecoration: "none", color: 'white' }}
+          >
+            <Button variant="outlined" color="white" size="large">
+              Заказать дизайн
+            </Button>
+          </a>
         </Container>
 
         <Box
@@ -181,7 +182,6 @@ const MainPage = () => {
 };
 
 export default MainPage;
-
 
 // "use client";
 // import React, { useEffect, useState } from "react";
