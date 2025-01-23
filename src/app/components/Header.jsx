@@ -1,4 +1,4 @@
-'use client'; // Указание на то, что это клиентский компонент
+"use client"; // Указание на то, что это клиентский компонент
 
 import * as React from "react";
 import AppBar from "@mui/material/AppBar";
@@ -12,6 +12,7 @@ import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import { Link } from "react-scroll";
+import Image from "next/image";
 
 const pages = [
   { pageName: "О нас", pageId: "about_us" },
@@ -68,9 +69,20 @@ function ResponsiveAppBar() {
               color: scrolled ? "black" : "#efefe", // Цвет зависит от прокрутки
               textDecoration: "none",
               transition: "color 0.3s ease",
+              alignItems: 'center',
             }}
           >
-            <span style={{ color: "#006400" }}>GREEN</span>
+            {scrolled ? (
+              <Image
+                src="/logoHead.2svg.svg"
+                alt="Logo"
+                width={55}
+                height={55}
+              />
+            ) : (
+              <Image src="/logoHead.svg" alt="Logo" width={50} height={50} />
+            )}
+            <span style={{ color: "#006400", marginLeft: '5px' }}>REEN</span>
             <span>CH</span>
           </Typography>
 

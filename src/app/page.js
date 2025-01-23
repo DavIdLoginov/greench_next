@@ -73,7 +73,7 @@ const MainPage = () => {
               fontWeight: "400",
               mb: 2,
               maxWidth: "700px",
-              fontSize: { xs: "2rem", sm: "2.5rem", md: "4rem" },
+              fontSize: { xs: "28px", sm: "2.5rem", md: "4rem" },
             }}
           >
             Ландшафтный дизайн, который вдохновляет
@@ -132,7 +132,7 @@ const MainPage = () => {
               alignItems="center"
             >
               <Grid item xs={12} sm={6} md={3} textAlign="center">
-                <Typography variant="h4" sx={{ fontWeight: 700, mb: 1 }}>
+                <Typography variant="h4" sx={{ fontWeight: 500, mb: 1 }}>
                   +{count1}
                 </Typography>
                 <Typography variant="body2" color="textSecondary">
@@ -141,7 +141,7 @@ const MainPage = () => {
               </Grid>
 
               <Grid item xs={12} sm={6} md={3} textAlign="center">
-                <Typography variant="h4" sx={{ fontWeight: 700, mb: 1 }}>
+                <Typography variant="h4" sx={{ fontWeight: 500, mb: 1 }}>
                   +{count2}га
                 </Typography>
                 <Typography variant="body2" color="textSecondary">
@@ -150,7 +150,7 @@ const MainPage = () => {
               </Grid>
 
               <Grid item xs={12} sm={6} md={3} textAlign="center">
-                <Typography variant="h4" sx={{ fontWeight: 700, mb: 1 }}>
+                <Typography variant="h4" sx={{ fontWeight: 500, mb: 1 }}>
                   +{count3}
                 </Typography>
                 <Typography variant="body2" color="textSecondary">
@@ -159,7 +159,7 @@ const MainPage = () => {
               </Grid>
 
               <Grid item xs={12} sm={6} md={3} textAlign="center">
-                <Typography variant="h4" sx={{ fontWeight: 700, mb: 1 }}>
+                <Typography variant="h4" sx={{ fontWeight: 500, mb: 1 }}>
                   {count4} года
                 </Typography>
                 <Typography variant="body2" color="textSecondary">
@@ -316,7 +316,7 @@ export default MainPage;
 //               alignItems="center"
 //             >
 //               <Grid item xs={12} sm={6} md={3} textAlign="center">
-//                 <Typography variant="h4" sx={{ fontWeight: 700, mb: 1 }}>
+//                 <Typography variant="h4" sx={{ fontWeight: 500, mb: 1 }}>
 //                   {count1}+
 //                 </Typography>
 //                 <Typography variant="body2" color="textSecondary">
@@ -325,7 +325,7 @@ export default MainPage;
 //               </Grid>
 
 //               <Grid item xs={12} sm={6} md={3} textAlign="center">
-//                 <Typography variant="h4" sx={{ fontWeight: 700, mb: 1 }}>
+//                 <Typography variant="h4" sx={{ fontWeight: 500, mb: 1 }}>
 //                   {count2}+
 //                 </Typography>
 //                 <Typography variant="body2" color="textSecondary">
@@ -334,7 +334,7 @@ export default MainPage;
 //               </Grid>
 
 //               <Grid item xs={12} sm={6} md={3} textAlign="center">
-//                 <Typography variant="h4" sx={{ fontWeight: 700, mb: 1 }}>
+//                 <Typography variant="h4" sx={{ fontWeight: 500, mb: 1 }}>
 //                   {count3}+
 //                 </Typography>
 //                 <Typography variant="body2" color="textSecondary">
@@ -343,7 +343,7 @@ export default MainPage;
 //               </Grid>
 
 //               <Grid item xs={12} sm={6} md={3} textAlign="center">
-//                 <Typography variant="h4" sx={{ fontWeight: 700, mb: 1 }}>
+//                 <Typography variant="h4" sx={{ fontWeight: 500, mb: 1 }}>
 //                   {count4} года
 //                 </Typography>
 //                 <Typography variant="body2" color="textSecondary">
